@@ -1,0 +1,43 @@
+.contact {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+
+.contactimg {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contacttext {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.contacttext h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+@media screen and (max-width:550px) {
+    .contacttext h1 {
+        padding: 10px 20px;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import "../About/About.css"
 import Aboutimg from "../../assets/night.jpg"
+import Footer from '../Footer/Footer'
 
 const About = () => {
   return (
@@ -10,8 +11,8 @@ const About = () => {
       </div>
       <div className='abouttext'>
         <h1>About Us</h1>
-
       </div>
+      <Footer/>
     </div>
   )
 }

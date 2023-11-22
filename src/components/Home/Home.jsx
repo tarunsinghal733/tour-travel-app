@@ -4,8 +4,8 @@ import des1 from "../../assets/1.jpg"
 import des2 from "../../assets/2.jpg"
 import des3 from "../../assets/5.jpg"
 import des4 from "../../assets/8.jpg"
+import Footer from '../Footer/Footer'
 import Trip from '../Trip/Trip'
-
 import CarImage from '../../assets/12.jpg';
 
 
@@ -76,7 +76,10 @@ const Home = () => {
         </div>
         <Trip />
       </div>
+      <Footer />
     </div>
+   
+    
   )
 }
 

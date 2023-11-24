@@ -2,6 +2,7 @@ import React from 'react'
 import contactimg from "../../assets/2.jpg"
 import "../Contact/Contact.css"
 import Footer from '../Footer/Footer'
+import Form from '../form/form'
 
 const Contact = () => {
   return (
@@ -12,7 +13,8 @@ const Contact = () => {
       <div className='contacttext'>
         <h1>Contact Us</h1>
       </div>
-<Footer/>
+      <Form />
+      <Footer />
     </div>
   )
 }

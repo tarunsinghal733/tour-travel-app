@@ -11,8 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar-items'>
-      <h1 className='navbar-logo'>Trippy</h1>
-
+     <h1 className='navbar-logo'>Trippy</h1>
       <div className='menu-icon' onClick={handleclick}>
         <i className={clicked ? 'fa fa-times' : 'fa fa-bars'}></i>
       </div>
